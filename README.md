@@ -1,17 +1,13 @@
-This is a simple [PHP](https://php.org/) application starter
+This is a simple [ReactPHP](https://reactphp.org/) application starter
 
 ## Getting Started
 
 Modify the logic of your the PHP application in the `app/index.php` file.
 
-```console
-$ echo '<?php phpinfo() ?>' > ./app/index.php
-```
-
 You can run things locally with:
 
 ```
-$ php -t app -S localhost:8080
+$ php app/index.php
 ```
 
 Or you can also use `wasmer run` to run it locally (check out the [Wasmer install guide](https://docs.wasmer.io/install)):

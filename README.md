@@ -13,7 +13,7 @@ $ php app/index.php
 Or you can also use `wasmer run` to run it locally (check out the [Wasmer install guide](https://docs.wasmer.io/install)):
 
 ```console
-$ wasmer run . --net
+$ wasmer run .
 ```
 
 Open [http://localhost:8080](http://localhost:8080) with your browser to see the result.
